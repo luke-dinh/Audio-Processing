@@ -1,4 +1,3 @@
-# Songs-Prediction-using-ANN
-Songs Prediction system using Approximate Nearest Neighbor.
+# Audio Processing using Python and Deep Learning
 
-Code will be realised soon!
+This repository will include some projects using Deep Learning on Audio data
