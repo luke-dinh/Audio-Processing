@@ -1,3 +1,3 @@
-# Audio Processing using Python and Deep Learning
+# Audio Processing
 
-This repository will include some projects using Deep Learning on Audio data
+This repository will include some projects using Python Deep Learning on Audio data
