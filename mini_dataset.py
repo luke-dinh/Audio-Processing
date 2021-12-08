@@ -4,6 +4,8 @@ import shutil
 import pandas as pd
 import argparse
 
+sys.path.append(".")
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--num_frame", default = 20, type=int, help= "Number of data frames to slice")
 parser.add_argument("--org_path", default= "dataset", type=str, help="Original path of audio")
