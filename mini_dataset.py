@@ -35,5 +35,5 @@ if not os.path.exists(new_path_song):
 all_files_song = os.listdir(org_path_song)
 all_files_song.sort()
 
-for file in all_files_song[:20]:
+for file in all_files_song[:num_frame]:
     shutil.move(org_path_song + "/" + file, new_path_song + "/" + file)
