@@ -24,5 +24,8 @@ mini_dataset.to_csv("mini_dataset.csv")
 # Slice music folder
 all_files = os.listdir(org_path)
 
+if not os.path.exists(new_path):
+    os.makedirs(new_path)
+    
 for file in all_files[:20]:
     shutil.move(org_path + file, new_path + file)
