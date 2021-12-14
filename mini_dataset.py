@@ -29,6 +29,9 @@ new_path_song = opt.new_path_song
 if not os.path.exists(new_path_song):
     os.makedirs(new_path_song)
 
+# if not os.path.exists(new_path_hum):
+#     os.makedirs(new_path_hum)
+
 # all_files_hum = os.listdir(org_path_hum)
 # all_files_hum.sort()
 
@@ -37,3 +40,6 @@ all_files_song.sort()
 
 for file in all_files_song[:num_frame]:
     shutil.move(org_path_song + "/" + file, new_path_song + "/" + file)
+
+# for file in all_files_hum[:num_frame]:
+#     shutil.move(org_path_hum + "/" + file, new_path_hum + "/" + file)
