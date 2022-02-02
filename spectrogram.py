@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 sys.path.append(".")
 
-audio_path = "/home/lukedinh/Desktop/Audio-Processing/mini_dataset_hum/0000.mp3"
+audio_path = "./mini_dataset_hum/0000.mp3"
 # audio_hum = os.listdir("mini_dataset_hum")
 # audio_arr = []
 # ipd.Audio(audio_path)
